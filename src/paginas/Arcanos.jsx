@@ -98,7 +98,7 @@ const arcanos = [
     {
         nome:"Força",
         numero:"XI",
-        descrição:"O Arcano da Força representa coragem, determinação, força interior e domínio sobre os próprios impulsos. Sua ideia não está relacionada apenas à força física, mas também à capacidade de enfrentar dificuldades e controlar os próprios sentimentos e instintos. Personagens associados a esse Arcano costumam ser corajosos, determinados e capazes de enfrentar situações difíceis sem desistir. Ao mesmo tempo, podem precisar aprender a controlar sua força e compreender que verdadeira força também envolve paciência, autocontrole e compreensão.",
+        descrição:"O Arcano da Força representa coragem, determinação, força interior e domínio sobre os próprios impulsos. Sua ideia não está relacionada apenas à força física, mas também à capacidade de enfrentar dificuldades e controlar os próprios sentimentos e instintos. Personagens associados a esse Arcano costumam ser corajosos, determinados e capazes de enfrentar situações difíceis sem desistir. Ao mesmo tempo, podem precisar aprender a controlar sua força e compreender que a verdadeira força também envolve paciência, autocontrole e compreensão.",
         personagem:"Yuko Nishiwaki",
         imagem:`${import.meta.env.BASE_URL}Arcanos/Strenght.jpg`,
         foto:`${import.meta.env.BASE_URL}Vinculos Sociais/Yuko Nishiwaki.webp`,
@@ -179,7 +179,7 @@ const arcanos = [
     {
         nome:"Éon",
         numero:"XX",
-        descrição:"O Arcano do Éon representa a busca por compreender a própria existência, o mundo ao redor e o lugar que cada indivíduo ocupa nele. Diferente dos Arcanos tradicionais do Tarô, o Aeon pertence ao Tarô de Thoth, onde substitui o Arcano do Julgamento. Personagens associados a esse Arcano geralmente não são completamente humanos e possuem dificuldade para compreender o mundo e as emoções humanas. Suas histórias estão ligadas à descoberta de sua própria identidade, à compreensão da vida e à busca por um propósito dentro de um mundo que ainda lhes é desconhecido.",
+        descrição:"O Arcano do Éon representa a busca por compreender a própria existência, o mundo ao redor e o lugar que cada indivíduo ocupa nele. Diferente dos Arcanos tradicionais do Tarô, o Éon pertence ao Tarô de Thoth, onde substitui o Arcano do Julgamento. Personagens associados a esse Arcano geralmente não são completamente humanos e possuem dificuldade para compreender o mundo e as emoções humanas. Suas histórias estão ligadas à descoberta de sua própria identidade, à compreensão da vida e à busca por um propósito dentro de um mundo que ainda lhes é desconhecido.",
         personagem:"Aigis",
         imagem:`${import.meta.env.BASE_URL}Arcanos/Aeon.jpg`,
         foto:`${import.meta.env.BASE_URL}Vinculos Sociais/Aigis.webp`,

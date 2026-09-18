@@ -171,3 +171,153 @@ section > h2 {
     display: block;
 
 }
+
+@media (max-width: 1024px) {
+
+    .sobre {
+        width: 85%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .personagens {
+        padding: 30px;
+    }
+
+    .lista-membros {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .Arcanos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .card > img:first-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .card > img:last-child {
+        width: 90%;
+        height: 350px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    section > h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .sobre {
+        width: 92%;
+        padding: 20px;
+        margin-top: 25px;
+    }
+
+    .sobre h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .sobre h2 {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .sobre p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .banner {
+        width: 95%;
+    }
+
+    .personagens {
+        padding: 20px 10px;
+    }
+
+    .personagens h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .lista-membros {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .lista-membros > *:last-child {
+        grid-column: auto;
+    }
+
+    .membros {
+        padding: 15px;
+    }
+
+    .membros h2 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+
+    section > h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .Arcanos {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .Arcanos > *:last-child {
+        grid-column: auto;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card > img:first-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .card > img:last-child {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+    }
+
+    .card h2 {
+        font-size: 24px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}

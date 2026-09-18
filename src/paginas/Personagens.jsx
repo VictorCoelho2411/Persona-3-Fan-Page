@@ -34,7 +34,7 @@ const personagens = [
     {
         nome:"Mitsuru Kirijo",
         persona:"Penthesilea",
-        descrição:"Mitsuru serve como a lider do S.E.E.S. e mentora do grupo. Filha de Takeharu Kirijo, o lider do Grupo Kirijo, uma empresa que investiga os fenomênos envolvendo o Tartarus e a Dark Hour. Foi a primeira do grupo a despertar seu persona. Antes da chegada da Fuuka, ela cumpria a função de Navegadora utilizando-se de seu Persona",
+        descrição:"Mitsuru serve como a líder do S.E.E.S. e mentora do grupo. Filha de Takeharu Kirijo, o líder do Grupo Kirijo, uma empresa que investiga os fenômenos envolvendo o Tartarus e a Dark Hour. Foi a primeira do grupo a despertar seu Persona. Antes da chegada da Fuuka, ela cumpria a função de Navegadora utilizando-se de seu Persona",
         imagem: `${import.meta.env.BASE_URL}Personagens/Mitsuru Kirijo.webp`,
     },
     {
