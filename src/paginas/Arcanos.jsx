@@ -7,7 +7,7 @@ const arcanos = [
         descrição:"O Arcano do Tolo representa o início de uma jornada e as infinitas possibilidades que surgem quando alguém começa um novo caminho. Seu número é o zero, que representa tanto o vazio quanto algo que ainda não possui limites ou uma forma definida. Ele simboliza liberdade, espontaneidade, curiosidade e a disposição para explorar o desconhecido, sem saber exatamente onde o caminho irá levar. Também representa o potencial de crescimento e as inúmeras possibilidades que existem antes de uma escolha ser feita.",
         personagem:"S.E.E.S",
         imagem: `${import.meta.env.BASE_URL}Arcanos/Fool.jpg`,
-        foto: `${import.meta.env.BASE_URL}Vinculos Sociais/Sees.webp`,
+        foto: `${import.meta.env.BASE_URL}Vinculos Sociais/Sees.jpg`,
     },
     {
         nome:"Mago",
@@ -39,7 +39,7 @@ const arcanos = [
         descrição:"O Arcano do Imperador representa autoridade, controle, liderança e força de vontade. Está relacionado ao desejo de organizar e controlar aquilo que está ao seu redor, buscando estabelecer ordem e estabilidade. Personagens associados a esse Arcano costumam ser líderes fortes, determinados e lógicos, possuindo confiança em suas próprias capacidades e procurando proteger ou orientar aqueles ao seu redor. Entretanto, também podem se tornar rígidos, obsessivos ou inflexíveis quando suas convicções entram em conflito com outras pessoas.",
         personagem:"Hidetoshi Odagiri",
         imagem:`${import.meta.env.BASE_URL}Arcanos/Emperor.jpg`,
-        foto:`${import.meta.env.BASE_URL}Vinculos Sociais/Kenji Hidetoshi Odagiri.webp`,
+        foto:`${import.meta.env.BASE_URL}Vinculos Sociais/Hidetoshi Odagiri.webp`,
         
     },
     {
