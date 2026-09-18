@@ -7,7 +7,7 @@ function Menu() {
     <>
     <header>
         <nav className='menu'>
-          <img src="Capas/Persona3icon.png" alt="" />
+          <img src={`${import.meta.env.BASE_URL}Capas/Persona3icon.png`} alt="" />
             <h1>Persona 3 Reload Fan Page</h1>
             <div>
                 <Link to = "/">Home</Link>
