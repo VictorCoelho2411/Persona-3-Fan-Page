@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
     <div className="banner">
-      <img src="Capas/P3 Capa.jpg" alt="" />
+      <img src="{`${import.meta.env.BASE_URL}Capas/P3 Capa.jpg" alt="" />
       </div>
     <div className="sobre">
       <h1>Persona 3 Reload</h1>
