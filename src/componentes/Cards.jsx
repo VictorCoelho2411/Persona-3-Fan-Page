@@ -2,8 +2,7 @@
 
 function Cards({imagem, nome, numero, descrição, personagem, foto} ) {
   
-  console.log("Imagem:", imagem)
-  console.log("Foto:", foto)
+  
 
   return (
     <>
