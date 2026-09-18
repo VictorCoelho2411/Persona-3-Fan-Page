@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background: linear-gradient(135deg, #0b3154,#0b5a61,#4a1d2a);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+h1, h2, h3{
+    font-family: 'Orbitron', sans-serif;
+}
+.sobre{
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #172554, #164E63, #136835, #7F1D1D);
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 45px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+.sobre h1{
+    margin-bottom: 40px;
+}
+.sobre h2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.sobre p{
+    max-width: 900px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+}
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.personagens{
+    padding: 40px;
+}
+.personagens h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.lista-membros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.lista-membros :last-child{
+    grid-column: 2;
+    
+}
+.membros{
+    background: linear-gradient(135deg, #4aa9d8 0%, #35b98a 50%, #d94b5b 100%);
+    border: 2px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+.membros:hover{
+    transform: translateY(-7px);
+}
+.membros img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+.membros h2{
+    margin: 15px 0 10px;
+}
+.membros h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.membros p{
+    line-height: 1.6;
+    text-align: left;
+}
+section {
+    padding: 40px;
+}
+
+section > h2 {
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.Arcanos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    align-items: start;
+    
+}
+.Arcanos :last-child{
+    grid-column: 2;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+
+    background: linear-gradient(
+        135deg,
+        #071a3d,
+        #123b70,
+        #176b78
+    );
+    border: 2px solid #6bd4e8;
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    transition: transform 0.4s,  box-shadow 0.4s ease;
+}
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(70, 190, 220, 0.35);
+}
+
+.card > img:first-child {
+    width: 375px;
+    height: 533px;
+    object-fit: contain;
+    border-radius: 6px;
+    border: 3px double #6bd4e8;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    font-family: 'Orbitron';
+    margin: 15px 0 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card p {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.card > img:last-child {
+    width: 90%;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin: 10px auto 0;
+    display: block;
+
+}
